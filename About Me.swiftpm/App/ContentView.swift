@@ -14,20 +14,19 @@ struct ContentView: View {
 
             StoryView()
                 .tabItem {
-                    Label("Story", systemImage: "book")
+                    Label("Book", systemImage: "book")
                 }
-            
+
             FavoritesView()
                 .tabItem {
                     Label("Favorites", systemImage: "star")
                 }
-            
+
             FunFactsView()
                 .tabItem {
                     Label("Fun Facts", systemImage: "hand.thumbsup")
                 }
         }
-        
     }
 }
 
